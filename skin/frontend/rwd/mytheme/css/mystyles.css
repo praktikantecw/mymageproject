@@ -1,0 +1,13 @@
+li.navbar-link-wrapper {
+    float: left;
+}
+li.navbar-link-wrapper a.navbar-link {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.navbar-link-wrapper a.navbar-link:hover {
+    background-color: #666666;
+}

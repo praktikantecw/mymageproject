@@ -1,0 +1,17 @@
+<layout version="0.1.0">
+    <!--
+    Default layout, loads most of the pages
+    -->
+
+    <default translate="label" module="page">
+        <reference name="head">
+               <!-- <action method="addItem"><type>skin_css</type><name>css/mystyles.css</name></action>-->
+        </reference>
+    </default>
+
+    <checkout_cart_index>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/mystyles.css</name></action>
+        </reference>
+    </checkout_cart_index>
+</layout>
